@@ -1,6 +1,7 @@
 services:
   nginx:
     image: nginx:latest
+    restart: always
     container_name: hng-nginx
     ports:
       - "80:80"
@@ -13,6 +14,7 @@ services:
 
   nextcloud:
     image: kefaslungu/hng-nextcloud
+    restart: always
     container_name: hng-nextcloud
     expose:
       - "80"
