@@ -64,6 +64,7 @@ print(" Anomaly Engine is LIVE and learning traffic patterns...")
 
 try:
     for log in monitor.follow():
+        print(f"DEBUG: Processing log from {log.get('source_ip')}", flush=True)
         # A. Update Baseline (add 1 request to the hourly slot)
         baseline.update(1) 
         
@@ -98,7 +99,8 @@ try:
         # F. Recalculate Baseline every 60 seconds (Requirement)
         if time.time() - last_recalc > 60:
             m, s = baseline.recalculate()
-            write_audit("RECALC", "SYSTEM", "60s Interval Update", m, s)
+            print(f" [RECALC] New Baseline Mean: {m:.2f} | StdDev: {s:.2f}", flush=True)
+            write_audit("RECALC", "SYSTEM", "Rolling Update", m, s)
             last_recalc = time.time()
 
         # G. Update Dashboard

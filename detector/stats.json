@@ -1,1 +1,1 @@
-{"global_rate": 1, "banned_ips": {"172.18.0.1": {"unban_at": Infinity, "ban_count": 1, "duration": 600}}, "mean": 1, "stddev": 0.0, "cpu_usage": 1.0, "memory_usage": 15.8, "uptime": 3228}
+{"global_rate": 5, "banned_ips": {"34.35.146.90": {"unban_at": 1777482001.8894367, "ban_count": 2, "duration": 1800}}, "mean": 1.0, "stddev": 0.5, "cpu_usage": 7.1, "memory_usage": 17.9, "uptime": 1626}
