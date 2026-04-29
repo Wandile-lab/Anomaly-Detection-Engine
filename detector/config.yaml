@@ -1,0 +1,7 @@
+log_file: /var/lib/docker/volumes/hng-stage3_HNG-nginx-logs/_data/hng-access.log
+whitelist:
+  - "127.0.0.1"
+  - "197.185.139.50"  
+  - "172.18.0.1"
+
+ban_schedule: [600, 1800, 7200]  # 10m, 30m, 2h in seconds

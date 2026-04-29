@@ -1,0 +1,1 @@
+{"global_rate": 1, "banned_ips": {"172.18.0.1": {"unban_at": Infinity, "ban_count": 1, "duration": 600}}, "mean": 1, "stddev": 0.0, "cpu_usage": 1.0, "memory_usage": 15.8, "uptime": 3228}
