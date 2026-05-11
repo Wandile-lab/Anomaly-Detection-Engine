@@ -5,6 +5,13 @@ A real-time DevSecOps tool designed to monitor Nginx traffic, learn behavioral b
 **Metrics Dashboard:** [http://34.35.146.90:8080](http://34.35.146.90:8080)  
 **Live Nextcloud Instance:** [http://34.35.146.90](http://34.35.146.90)
 
+>Project Status: Decommissioned
+>
+>**Date:** May 11, 2026
+>
+>The live VPS instance and metrics dashboard have been terminated to optimize operational costs.
+>
+>**Evidence of Operation:** While the live links are no longer active, full documentation of the engine's performance, including anomaly detection logs, automated blocking events, and the metrics UI can be found in the [**screenshots/**](./screenshots/) folder 
 ---
 
 ## System Architecture
