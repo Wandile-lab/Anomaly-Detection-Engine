@@ -2,8 +2,8 @@
 
 A real-time DevSecOps tool designed to monitor Nginx traffic, learn behavioral baselines using Z-Score statistics, and automatically enforce security policies via `iptables`.
 
-**Metrics Dashboard:** [http://34.35.146.90:8080](http://34.35.146.90:8080)  
-**Live Nextcloud Instance:** [http://34.35.146.90](http://34.35.146.90)
+**Metrics Dashboard:** [http://34.35.146.90:8080](http://34.35.146.90:8080) (Terminated)
+**Live Nextcloud Instance:** [http://34.35.146.90](http://34.35.146.90) (Terminated)
 
 >Project Status: Decommissioned
 >
